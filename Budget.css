@@ -1,0 +1,43 @@
+#savingsContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  float: left;
+  margin-left: 10%;
+}
+
+#wantsContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  float: left;
+  margin-left: 10%;
+}
+
+#needsContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  float: left;
+  margin-left: 10%;
+}
+
+#savingsContainer label,
+#wantsContainer label,
+#needsContainer label {
+  margin-bottom: 5px;
+  align-items: center;
+  display: flex;
+}
+
+#savingsContainer input,
+#wantsContainer input,
+#needsContainer input {
+  margin-bottom: 5px;
+  width: 30%;
+  height: 30px;
+  align-items: center;
+}
