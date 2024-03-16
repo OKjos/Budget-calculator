@@ -12,13 +12,13 @@
   <div>
 
     <p>How often do you receive your income?</p>
-    <select>
+    <select id="select-id">
       <option></option>
-      <option>Weekly</option>
-      <option>Every Other Week</option>
-      <option>Twice a Month</option>
-      <option>Once a Month</option>
-      <option>Once a Year</option>
+      <option value="52">Weekly</option>
+      <option value="26">Every Other Week</option>
+      <option value="24">Twice a Month</option>
+      <option value="12">Once a Month</option>
+      <option value="1">Once a Year</option>
     </select>
 
   </div>
@@ -26,7 +26,7 @@
   <div>
 
     <p>What is your after-tax income?</p>
-    <input>
+    <input id="after-tax-input"/>
 
   </div>
 
@@ -48,31 +48,46 @@
     </div>
   
     <label for="input2">Utilities</label>
-    <input type="text" id="utilitiesInput" />
-  
+    <div>
+      <span>$</span>
+      <input type="text" id="utilitiesInput" />
+    </div>
+
     <label for="input3">Groceries</label>
-    <span>$</span>
-    <input type="text" id="groceriesInput" />
-  
+    <div>
+      <span>$</span>
+      <input type="text" id="groceriesInput" />
+    </div>
+
     <label for="input4">Transportation</label>
-    <span>$</span>
-    <input type="text" id="TransportationInput" />
-  
+    <div>
+      <span>$</span>
+      <input type="text" id="TransportationInput" />
+    </div>
+
     <label for="input5">Childcare</label>
-    <span>$</span>
-    <input type="text" id="ChildcareInput" />
+    <div>
+      <span>$</span>
+      <input type="text" id="ChildcareInput" />
+    </div>
 
     <label for="input5">Healthcare</label>
-    <span>$</span>
-    <input type="text" id="healthcareInput" />
+    <div>
+      <span>$</span>
+      <input type="text" id="healthcareInput" />
+    </div>
 
     <label for="input5">Student Loan Payments</label>
-    <span>$</span>
-    <input type="text" id="studentLoansInput" />
+    <div>
+      <span>$</span>
+      <input type="text" id="studentLoansInput" />
+    </div>
 
     <label for="input5">Other Debt Payments</label>
-    <span>$</span>
-    <input type="text" id="otherDebtInput" />
+    <div>
+      <span>$</span>
+      <input type="text" id="otherDebtInput" />
+    </div>
 
   </div>
 
@@ -82,20 +97,28 @@
     <h3><u>Wants</u></h3>
 
     <label>Entertainment</label>
-    <span>$</span>
-    <input type="text" id="entertainmentInput">
+    <div>
+      <span>$</span>
+      <input type="text" id="entertainmentInput">
+    </div>
 
     <label>Dining Out</label>
-    <span>$</span>
-    <input type="text" id="diningInput">
+    <div>
+      <span>$</span>
+      <input type="text" id="diningInput">
+    </div>
 
     <label>Hobbies</label>
-    <span>$</span>
-    <input type="text" id="hobbiesInput">
-
+    <div>
+      <span>$</span>
+      <input type="text" id="hobbiesInput">
+    </div>
+    
     <label>Splurges</label>
-    <span>$</span>
-    <input type="text" id="splurgesInput">
+    <div>
+      <span>$</span>
+      <input type="text" id="splurgesInput">
+    </div>
 
   </div>
 
@@ -105,16 +128,22 @@
 
 
     <label>Emergency Fund</label>
-    <span>$</span>
-    <input type="text" id="emergencyInput">
+    <div>
+      <span>$</span>
+      <input type="text" id="emergencyInput">
+    </div>
 
     <label>Retirement</label>
-    <span>$</span>
-    <input type="text" id="retirementInput">
+    <div>
+      <span>$</span>
+      <input type="text" id="retirementInput">
+    </div>
 
     <label>Vacation/Travel</label>
+    <div>
       <span>$</span>
-    <input type="text" id="vacationInput">
+      <input type="text" id="vacationInput">
+    </div>
     
   </div>
 
